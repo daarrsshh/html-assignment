@@ -1,0 +1,56 @@
+ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul li
+{
+ background-color: rgb(9, 9, 9);
+ height: 50px;
+ width: 499px;
+ float: left;
+ line-height: 50px;
+ border: 1px solid white;
+ font-style: aliceblue;    
+}
+
+ul li a
+{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    display: block;
+}
+
+ul li a:hover
+{
+    background-color: green;
+    z-index: 10;
+}
+
+ul li ul li
+{
+    display: none;
+    z-index: 10;
+}
+
+ul li:hover ul li
+{
+    display: block;
+    z-index: 10;
+}
+
+img 
+{
+     z-index: -1;
+     position: relative;
+}
+
+label
+{
+    color: white;
+    font-size: large;
+    text-align: left;
+}

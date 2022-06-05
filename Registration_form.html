@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="mystyle.css" type="text/css"/>
+
+
+</head>
+<body style="background-color: gray;">
+
+
+
+
+    <div>
+
+        <table id="header" width="100%" cellpadding="0" cellspacing="0" style="background-color: rgb(255, 234, 7);">
+            <tr>
+                <td>
+                    <table cellpadding="5" cellspacing="0" align="center" width="90%">
+                        <tr>
+    
+                            <td>
+                                <img src="Sonata_Software_Logo.png" alt="Sonata logo" width="100" height="70">
+                            </td>
+                            <td valign="middle" valign="top">
+                                <font face="arial" color="#000000" size="6" align="left" >
+                                     Sonata Institute of Technology
+                                </font>
+                            </td>
+    
+                            <td align="center">
+                                <a href=""><font face="arial" color="#000000" size="4">HOME</font> </a>
+                            </td>
+    
+                            <td align="center">
+                                <a href=""><font face="arial" color="#000000"f size="4">ADMISSION</font> </a>
+                            </td>
+    
+                            <td align="center">
+                                <a href=""><font face="arial" color="#000000" size="4">ACADEMICS</font> </a>
+                            </td>
+    
+                            <td align="center">
+                                <a href=""><font face="arial" color="#000000" size="4">GALLERY</font> </a>
+                            </td>
+                        </tr>
+    
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+   <div class="main" align="center">
+       <h1>Register Here</h1>
+       <form id="register" method="post">
+        <label for="fname">First Name :</label>
+        <br>
+        <input type="text" name="Fname" id="fname" placeholder="First Name">
+        <br><br>
+
+        <label for="lname">Last Name :</label>
+        <br>
+        <input type="text" name="Lname" id="lname" placeholder="Last Name">
+        <br><br>
+
+        <label for="age">Age :</label>
+        <br>
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+        <br><br>
+
+        <label for="email">Email Id :</label>
+        <br>
+        <input type="email" name="Email" id="email" placeholder="Enter your Mail Id">
+        <br><br>
+
+        <label>Gender :</label>
+        <br>
+        &nbsp;&nbsp;&nbsp;        
+        <input type="radio" name="gender" id="male">
+        &nbsp;
+        <span id="male">Male</span>
+        &nbsp; &nbsp; &nbsp; &nbsp; 
+        <input type="radio" name="gender" id="female">
+        &nbsp;
+        <span id="female">Female</span>
+        <br><br>
+
+        <label for="12th">Percentage secured in Higher secondry :</label>
+        <br>
+        <input type="number" name="12th" id="12th" placeholder="Percentage" min="0" max="100">
+        <br><br>
+
+        <label for="10th">Percentage secured in Senior secondry :</label>
+        <br>
+        <input type="number" name="10th" id="10th" placeholder="CGPA" min="0" max="10">
+        <br><br>
+
+        <input type="submit" name="submit" id="submit" value="submit">
+
+
+       </form>
+   </div> 
+</body>
+</html>
